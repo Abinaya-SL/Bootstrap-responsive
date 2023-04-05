@@ -1,0 +1,732 @@
+body{
+    font-family: "Oswald" !important;
+    margin:8px 0;
+}
+.container {
+    margin:0 auto;
+    max-width:1185px;
+    margin-right: auto;
+    margin-left: auto;
+    clear: both;
+  
+    width: 100%;
+    height: 100%;
+    
+    position: relative;
+}
+.my-account-list {
+  float:right;
+}
+.my-account-list li{
+    display: inline-flex;
+}
+ul.my-account-list {
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    text-align: right;
+}
+.my-account-list a{
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Oswald";
+    text-decoration: none;
+}
+.my-account-list a:hover {
+    color: black;
+    text-decoration: none;
+}
+.navbar-nav .nav-item a {
+    color: black !important;
+}
+.navbar-nav .nav-item a{
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Oswald";
+}
+.navbar-nav .nav-item  .active{
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    /* font-weight: 300; */
+    font-family: "Oswald";
+    font-weight: 500 !important;
+}
+.navbar-nav .nav-item .last{
+    font-size: 18px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+font-weight: 300;
+font-family: "Oswald";
+}
+.dropdown-toggle::after {
+
+display: none!important;
+}
+.background{
+    background-image: url("Sliced Images/image knief.png");
+    background-repeat: no-repeat;
+
+    
+    background-position: 66%;
+}
+.row1{
+    justify-content: center;
+    margin:20px 0;
+}
+.clr{
+    color: #ed1c24;
+}
+/* .prod-detail .un {
+    font-size: 18px;
+    line-height: 32px;
+    color: #ed1c24;
+    display: contents;
+
+    font-family: "Oswald";
+} */
+.prod-detail .un1 {
+    font-size: 18px;
+    line-height: 32px;
+    color: black;
+    /* display: contents; */
+    /* font-weight: 300; */
+    font-family: "Oswald";
+    margin-right: -163px !important;
+}
+
+.banner-div img{
+    position: relative;
+}
+.banner-div .left{
+    
+    position: absolute;
+    left: 19px;
+    top: 42%;
+    bottom: auto;
+    background-color: lightgrey;
+    padding: 29px 14px;
+    border: 0.5px solid red;
+    opacity: 0.7;
+}
+
+.banner-div .right{
+    position: absolute;
+    right: 25px;
+    top: 42%;
+    bottom: auto;
+    background-color: lightgrey;
+    padding: 29px 14px;
+    border: 0.5px solid red;
+    opacity: 0.7;
+}
+.one{
+font-size: 32px;
+line-height: 155px;
+color: #1f1f1f;
+font-weight: 400;
+font-family: "Oswald";
+text-align: center;
+}
+.prod-detail{
+    padding:0 20px;
+}
+.review{
+    padding: 28px 11px 20px;
+}
+.review1{
+    padding: 19px 18px 20px;
+}
+.design{
+    border:0.5px solid lightgrey;
+    padding: 17px;
+    border-bottom: none;
+    border-right: none;
+}
+.design11{
+    border:0.5px solid lightgrey;
+    padding: 17px;
+    border-bottom: none;
+}
+.design2{
+    border:0.5px solid lightgrey;
+    padding: 25px;
+    border-bottom: none;
+    border-right: none;
+}
+.design1{
+    border:0.5px solid lightgrey;
+    padding: 17px;
+    border-right: none;
+ 
+}
+.design12{
+    border:0.5px solid lightgrey;
+    padding: 17px;
+   
+ 
+}
+.productimage {
+    width: 284px;
+    height: 213px;
+    object-fit: contain;
+    padding: 10px 0px 0px 0px;
+}
+.prod-detail h3{
+    font-size: 18px;
+line-height: 28px;
+color: #000000;
+/* font-weight: 300; */
+font-family: "Oswald";
+}
+.prod-detail span{
+    font-size: 18px;
+    line-height: 77px;
+    color: #ed1c24;
+
+    font-family: "Oswald";
+}
+.prod-detail .first {
+    font-size: 18px;
+    line-height: 83px;
+    color: #ed1c24;
+    /* font-weight: 300; */
+    font-family: "Oswald";
+}
+.emailsection{
+    background-color: black;
+  
+    margin: 70px 0 0 0;
+    color: white;
+}
+.left-mail{
+   
+    width: 97% !important;
+    /* background-color: black !important; */
+    opacity: 0.8;
+    z-index:1;
+    color:white;
+    font-family: oswald;
+    margin:10px 17px;
+    padding:40px  0;
+    clear: both;
+}
+
+.left-mail h4{
+    
+    padding: 4px 169px !important;
+    
+    font-size: 22px !important;
+    line-height: 23px;
+    color: #ffffff !important;
+    /* font-weight: 300; */
+    font-family: "Oswald";
+}
+.left-mail h5{
+ 
+    float: left;
+    padding: 10px 164px;
+  
+    font-size: 15px;
+    line-height: 60px;
+    color: #ffffff !important;
+    /* font-weight: 300; */
+    font-family: "Oswald";
+    text-align: center;
+}
+.left-mail input[type=email]{
+    padding: 10px 0;
+   color:white;
+    background: url("Sliced Images/email arrow.png") no-repeat right;
+    border-bottom:1px solid gray;
+    height: 46px;
+    width:450px;
+    cursor: pointer;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: calc(100% - 753px);
+}
+
+
+/* .cart{
+    font-size: 15px;
+line-height: 21px;
+color: #1f1f1f;
+font-weight: 300;
+font-family: "Oswald";
+} */
+#footer{
+    
+        margin: 27px 0 0 0;
+    
+}
+.fd{
+    font-size: 15px;
+line-height: 40px;
+color: #1f1f1f;
+
+font-family: "Oswald";
+font-weight: 500;
+}
+.ib{
+    display: inline-block;
+  
+    clear: both;
+    float:right;
+  
+    margin-top: -90px;
+}
+.bb{
+    border-bottom:0.5px solid lightgray;
+  
+    width: calc(100% - 40px);
+   
+    color: #1f1f1f;
+    font-family: "Oswald";
+    font-size: 22px;
+    line-height: 43px;
+   
+}
+.bb1{
+    border-bottom: 0.5px solid lightgray;
+    line-height: 42px;
+    width: calc(100% - 125px);
+}
+.row3{
+    border-top:0.5px solid lightgray;
+    line-height: 55px;
+}
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: -238px;
+    right: -151px;
+    width: 48px;
+    padding: 10px;
+    object-fit: none;
+    background-color: #ed1c24;
+}
+.footersection .fi img {
+    width: 100% !important;
+}
+
+
+@media only screen and (max-width:1980px) {
+    #content img {
+        right: -183px !important;
+    }
+    .prod-detail .un1 {
+        margin-right: -218px !important;
+    }
+    .design{
+        padding:25px !important;
+    }
+    .design11{
+        padding:25px !important;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    #content img {
+        right: -153px !important;
+    }
+    .prod-detail .un1 {
+        margin-right: -159px !important;
+    }
+}
+/* Nest hub */
+@media only screen and (max-width: 1024px) {
+
+    .prod-detail h3 {
+        font-size: 15px;
+        line-height: 28px;
+        color: #000000;
+        /* font-weight: 300; */
+        font-family: "Oswald";
+    }
+    .prod-detail .first {
+        font-size: 16px;
+        line-height: 81px;
+    }
+    .review {
+        padding: 25px 3px 0px;
+    }
+    .review1 {
+        padding: 17px 10px 0px;
+    }
+    #content img {
+        position: absolute;
+        top: -238px;
+        right: -148px !important;
+        width: 48px;
+        padding: 10px;
+        object-fit: none;
+        background-color: #ed1c24;
+    }
+    .prod-detail .un1 {
+        font-size: 18px;
+        line-height: 32px;
+        color: black;
+        /* display: contents; */
+        /* font-weight: 300; */
+        font-family: "Oswald";
+        margin-right: -126px !important;
+    }
+    .design11 {
+        border: 0.5px solid lightgrey;
+        padding: 24px;
+        border-bottom: none;
+    }
+    .left-mail {
+        width: 97% !important;
+        /* background-color: black; */
+        opacity: 0.8;
+        z-index: 1;
+        color: white;
+        font-family: oswald;
+        margin: 10px 17px;
+        padding: 40px 0;
+        clear: both;
+    }
+    .banner-div .left {
+        position: absolute;
+        left: 19px;
+        top: 42%;
+        bottom: auto;
+        background-color: lightgrey;
+        padding: 16px 1px !important;
+        border: 0.5px solid red;
+        opacity: 0.7;
+    }
+    .banner-div .right {
+        position: absolute;
+        right: 25px;
+        top: 42%;
+        bottom: auto;
+        background-color: lightgrey;
+        padding: 16px 1px !important;
+        border: 0.5px solid red;
+        opacity: 0.7;
+    }
+    .left-mail h4 {
+        padding: 4px 70px !important;
+        font-size: 18px !important;
+        line-height: 23px;
+        color: #ffffff !important;
+        /* font-weight: 300; */
+        font-family: "Oswald";
+    }
+    .left-mail h5 {
+    float: left;
+    padding: 7px 70px !important;
+    font-size: 17px !important;
+    line-height: 57px;
+    color: #ffffff !important;
+    /* font-weight: 300; */
+    font-family: "Oswald";
+    text-align: center;
+}
+#content img {
+    position: absolute;
+    top: -238px;
+    right: -129px !important;
+}
+.left-mail input[type=email] {
+    padding: 10px 0;
+    color: white;
+    background: url("Sliced Images/email arrow.png") no-repeat right;
+    border-bottom: 1px solid gray;
+    height: 46px;
+    width: 294px !important;
+    cursor: pointer;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: calc(100% - 753px);
+}
+
+}
+/* ipad,tablets */
+
+    @media only screen and (min-width: 768px) and (max-width:1023px){
+
+    .productimage {
+        width: 193px;
+        height: 189px;
+        object-fit: contain;
+        padding: 16px 1px 17px 0px;
+    }
+    .design {
+        padding: 18px !important;
+    }
+    .review {
+        padding: 0px 0px 0px !important;
+    }
+    .prod-detail {
+        padding: 12px 4px;
+    }
+    .prod-detail .first {
+        font-size: 13px;
+        line-height: 60px;
+    }
+    .prod-detail h3 {
+        font-size: 13px;
+        line-height: 20px;
+        color: #000000;
+        /* font-weight: 300; */
+        font-family: "Oswald";
+    }
+    .navbar-nav .nav-item a {
+        font-size: 15px;
+    }
+    .banner-div .left {
+        position: absolute;
+        left: 19px;
+        top: 42%;
+        bottom: auto;
+        background-color: lightgrey;
+        padding: 6px 0px !important;
+        border: 0.5px solid red;
+        opacity: 0.7;
+    }
+    .banner-div .right {
+        position: absolute;
+        right: 25px;
+        top: 42%;
+        bottom: auto;
+        background-color: lightgrey;
+        padding: 6px 0px !important;
+        border: 0.5px solid red;
+        opacity: 0.7;
+    }
+
+    
+
+.eye img{
+    width: 88px;
+}
+.cart{
+    font-size: 9px;
+}
+.cart img {
+    width: 47px;
+}
+.prod-detail span {
+    font-size: 13px;
+    line-height: 65px;
+    color: #ed1c24;
+    font-family: "Oswald";
+}
+.prod-detail .un1 {
+    font-size: 14px;
+    line-height: 32px;
+    color: black;
+    /* display: contents; */
+    /* font-weight: 300; */
+    font-family: "Oswald";
+    margin-right: -91px !important;
+}
+#content img {
+    position: absolute;
+    top: -238px;
+    right: -91px !important;
+}
+#content img {
+    position: absolute;
+    top: -226px;
+    right: -89px;
+    width: 43px;
+    padding: 8px;
+    object-fit: none;
+    background-color: #ed1c24;
+}
+.left-mail h4 {
+    padding: 0px 31px !important;
+    font-size: 16px !important;
+}
+.left-mail h5 {
+    float: left;
+    padding: 6px 26px !important;
+    font-size: 14px !important;
+}
+.footersection .fi img{
+    width:100%;
+}
+.left-mail h5 {
+    float: left;
+    padding: 7px 23px;
+    font-size: 14px;
+    line-height: 57px;
+    color: #ffffff !important;
+    /* font-weight: 300; */
+    font-family: "Oswald";
+    text-align: center;
+}
+.left-mail h4 {
+    padding: 4px 23px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff !important;
+    /* font-weight: 300; */
+    font-family: "Oswald";
+}
+.left-mail input[type=email] {
+    padding: 6px 3px;
+    color: white;
+    background: url("Sliced Images/email arrow.png") no-repeat right;
+    border-bottom: 1px solid gray;
+    height: 46px;
+    width: 265px;
+    cursor: pointer;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+}
+.navbar-nav .nav-item .last{
+    font-size: 14px !important;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+font-weight: 300;
+font-family: "Oswald";
+}
+.one {
+    font-size: 25px !important;
+    line-height: 117px !important;
+    color: #1f1f1f;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+}
+.fd {
+    font-size: 13px !important;
+    line-height: 40px;
+    color: #1f1f1f;
+    font-family: "Oswald";
+    font-weight: 400 !important;
+}
+
+}
+
+/* Mobile View */
+@media only screen and (min-width:320px) and (max-width: 767px) {
+
+
+
+    .footersection .fi img {
+        width: 70% !important;
+    }
+    .left-mail h4 {
+        padding: 0px 4px !important;
+        font-size: 17px !important;
+    }
+    .left-mail h5 {
+        float: left;
+        padding: 0px 0px !important;
+        font-size: 14px !important;
+    }
+    
+    .left-mail input[type=email] {
+        padding: 10px 0;
+        
+        width: 263px !important;
+    }    
+    /* .design12 {
+        border: 0.5px solid lightgrey;
+        padding: 44px;
+    } */
+    .prod-detail h3 {
+        font-size: 16px !important;
+        line-height: 20px;
+        color: #000000;
+        /* font-weight: 300; */
+        font-family: "Oswald";
+    }
+    .prod-detail span {
+        font-size: 16px !important;
+        line-height: 65px;
+        color: #ed1c24;
+        font-family: "Oswald";
+    }
+    .one {
+        font-size: 19px !important;
+    }
+    .banner-div .left {
+        position: absolute;
+        left: 19px;
+        top: 42%;
+        bottom: auto;
+        background-color: lightgrey;
+        padding: 0px 0px !important;
+        border: 0.5px solid red;
+        opacity: 0.7;
+    }
+    .banner-div .right {
+        position: absolute;
+        right: 25px;
+        top: 42%;
+        bottom: auto;
+        background-color: lightgrey;
+        padding: 0px 0px !important;
+        border: 0.5px solid red;
+        opacity: 0.7;
+    }
+    .row1 {
+        justify-content: center;
+        margin: 0px 0 !important;
+    }
+    .design {
+        border: 0.5px solid lightgrey;
+        padding: 17px;
+        border-bottom: none;
+    }
+    .design2 {
+        border: 0.5px solid lightgrey;
+        padding: 25px;
+        border-bottom: none;
+    }
+    .design1 {
+        border: 0.5px solid lightgrey;
+        padding: 17px;
+    }
+    .prod-detail .un1 {
+        font-size: 18px;
+        line-height: 32px;
+        color: black;
+        /* display: contents; */
+        /* font-weight: 300; */
+        font-family: "Oswald";
+        margin-right: -152px !important;
+    }
+    #content img {
+        position: absolute;
+        top: -238px;
+        right: -141px !important;
+    }
+    .bb {
+        border-bottom: 0.5px solid lightgray;
+        width: 100% !important;
+        color: #1f1f1f;
+        font-family: "Oswald";
+        font-size: 22px;
+        line-height: 43px;
+    }
+    .bb1 {
+        border-bottom: 0.5px solid lightgray;
+        line-height: 42px;
+        width: 100% !important;
+    }
+
+
+}
